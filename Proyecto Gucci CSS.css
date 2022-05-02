@@ -1,0 +1,28 @@
+img {
+    transition:transform 0.4s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.15); /* or some other value */
+    transform:scale(1.15);
+}
+
+main{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.card{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+@media (min-width: 500px) { 
+    .carousel-inner{
+        height: 500px;
+    }
+}
